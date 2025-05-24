@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fondo.png">
+    <link rel="stylesheet" href="lupa.png">
+    <link rel="stylesheet" href="box.jpg">
+    <link rel="stylesheet" href="iconx.png">
+    
+    
+</head>
+
+<body>
+    <header class="hd1">
+        <p class="t1">Tienda Virtual</p>
+        <nav class="n1">
+            <button class="btnh" onclick="location.href ='index.html'"> Cerrar Sesion</button>
+            <button class="btnh" onclick ="location.href = 'stand.html'"> Productos</button>
+        </nav>
+    </header>
+
+    <div class="containitems">
+
+        <header class="hed2">
+            <h2>
+                Carrito de Compras
+            </h2>
+        </header>
+
+        <div class = gridcon>
+            <div class = cont1 id="cont1"></div>
+
+            <div class = cnt2>
+                <h1 class="tlcr">
+                    Total de Orden
+                </h1>
+
+                <p class="txt1">
+                    Subtotal: $<span id = "subtotal">0</span>
+                </p>
+                    
+                <p class="txt1">
+                    IVA: $<span id = "iva">0</span>
+                </p>
+
+                <p class="txt1">
+                    Total: $<span id = "total">0</span>
+                </p>
+
+                <button class="pago">
+                    Continue to Payment
+                    <img src="" alt="">
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="controlcar.js"></script>
+    
+     
+    
+</body>
+</html>
+
